@@ -36,6 +36,8 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .visually-hidden {
     position: absolute;
@@ -197,6 +199,7 @@ color: #212121;
 
 
 .hero-btn {
+    border: none;
     min-width: 200px;
     height: 50px;
     font-family: inherit;
@@ -220,12 +223,9 @@ color: #212121;
 
 /*-----------------BENEFITS-------------------*/
 
-.benefits .container {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 .benefits-list {
     display: flex;
+     
 }
 .benefits-top-text{
 flex-direction: column;
@@ -253,9 +253,6 @@ color: var(--text-color);
 }
 
 /*-------------------ABOUT-------------------------*/
-.about {
-    padding: 94px 215px 94px 215px;
-}
 
 .about-title {
     margin-bottom: 50px;
@@ -365,6 +362,7 @@ padding-bottom: 50px;
     margin-right: 8px;
 }
 .galery-btn {
+    border: none;
 font-family: inherit;
 width: 128px;
 height: 38px;
