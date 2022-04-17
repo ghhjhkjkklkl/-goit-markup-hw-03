@@ -179,9 +179,7 @@ color: #212121;
    padding-top: 200px;
    padding-bottom: 200px;
    text-align: center;
-
 }
-
 .hero-title {
     font-weight: 900;
     font-size: 44px;
@@ -189,13 +187,13 @@ color: #212121;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-bottom: var(--typical-margin);
     width: 696px;
-    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: var(--typical-margin);
+    
 }
-
-
-
 .hero-btn {
     border: none;
     min-width: 200px;
@@ -233,7 +231,7 @@ flex-direction: column;
 }
 .benefits-top-text:not(:last-child) {
     margin-right: var(--typical-margin);
-    }
+}
 
 .benefits-title {
 font-weight: 700;
@@ -392,8 +390,6 @@ padding: 6px 22px;
 .galery-items {
     margin-bottom: 94px;
 }
-
-
 .galery-list {
     display: flex;
     flex-wrap: wrap;
@@ -405,13 +401,21 @@ padding: 6px 22px;
     margin-left: 30px; 
     margin-bottom: 30px;
     background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-
 }
-
 .galery-list-group {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
+    border-left: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
 }
+
+
+
+
+
+
+
+
+
