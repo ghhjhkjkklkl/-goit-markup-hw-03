@@ -36,8 +36,6 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 .visually-hidden {
     position: absolute;
@@ -137,8 +135,7 @@ color: rgba(255, 255, 255, 0.6);
 
 .header {
     padding-top: 24px;
-    padding-bottom: 32px;
-    border: 1px solid #ECECEC;
+    padding-bottom: 24px;
 }
 .header .container {
     display: flex;
@@ -179,21 +176,22 @@ color: #212121;
 /*-------------------HERO--------------------*/
 .hero {
    background-color: #2F303A;
-   padding: 200px 452px;
+   padding-top: 200px;
+   padding-bottom: 200px;
+   text-align: center;
+
 }
 
 .hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: var(--typical-margin);
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    width: 696px;
+    text-align: center;
 }
 
 
@@ -222,7 +220,10 @@ color: #212121;
 
 
 /*-----------------BENEFITS-------------------*/
-
+.benefits {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .benefits-list {
     display: flex;
      
@@ -253,7 +254,10 @@ color: var(--text-color);
 }
 
 /*-------------------ABOUT-------------------------*/
-
+.about {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .about-title {
     margin-bottom: 50px;
     display: flex;
@@ -270,7 +274,8 @@ margin-right: var(--typical-margin);
 /*------------------------TEAM---------------------------*/
 .team {
     background-color: #F5F4FA;
-    padding: 94px 215px 94px 215px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .team-title {
     margin-bottom: 50px;
@@ -320,11 +325,10 @@ display: flex;
 .footer {
 padding-top: 60px;
 padding-bottom: 60px;
-padding-left: 215px;
 background-color: #2F303A;
 }
 .footer-logo-color {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .footer-contact:not(:last-child) {
@@ -332,6 +336,20 @@ margin-bottom: 9px;
 }
 
 /*---------------------PORTFOLIO-----------------------------*/
+
+.header-portfolio {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #ECECEC;
+}
+.header-portfolio .container {
+    display: flex;
+    align-items: center;
+}
+.galery {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .galery-title {
 font-weight: 700;
@@ -351,8 +369,7 @@ letter-spacing: 0.03em;
 color: var(--text-color);
 }
  .button-galery {
-padding-top: 94px;
-padding-bottom: 50px;
+margin-bottom: 50px;
  }
  .button-galery-list {
      display: flex;
@@ -364,12 +381,9 @@ padding-bottom: 50px;
 .galery-btn {
     border: none;
 font-family: inherit;
-width: 128px;
-height: 38px;
-left: 576px;
-top: 174px;
 background-color: #F5F4FA;
 border-radius: 4px;
+padding: 6px 22px;
 }
 .galery-btn:hover, .galery-btn:focus {
     color: #FFFFFF;
@@ -401,4 +415,3 @@ box-sizing: border-box;
     padding-bottom: 20px;
     padding-left: 24px;
 }
-
