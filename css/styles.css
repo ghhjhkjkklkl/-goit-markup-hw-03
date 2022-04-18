@@ -220,7 +220,6 @@ color: #212121;
 /*-----------------BENEFITS-------------------*/
 .benefits {
     padding-top: 94px;
-    padding-bottom: 94px;
 }
 .benefits-list {
     display: flex;
@@ -243,7 +242,8 @@ color:#212121;
 margin-bottom: 10px;
 }
 
-.benefits-text { 
+.benefits-text {
+width: 270px; 
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -379,6 +379,11 @@ margin-bottom: 50px;
 .galery-btn {
     border: none;
 font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
 background-color: #F5F4FA;
 border-radius: 4px;
 padding: 6px 22px;
